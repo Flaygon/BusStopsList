@@ -26,7 +26,7 @@ class App extends React.Component
     fetch("http://localhost:8080/data").then(response => {
           console.log(response);
           if (!response.ok)
-            throw new Error(`Request failed with status ${reponse.status}`);
+            throw new Error(`Request failed with status ${response.status}`);
           return response.text();
       }).then(data => {
         console.log(JSON.parse(data));
