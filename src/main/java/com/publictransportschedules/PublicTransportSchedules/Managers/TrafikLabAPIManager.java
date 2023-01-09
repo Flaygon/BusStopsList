@@ -15,10 +15,6 @@ import java.util.List;
 
 public class TrafikLabAPIManager
 {
-    // update README with instructions on how to run locally on a Windows platform
-    // push to github
-    // deliver test to client
-
     private final String URLPath = "https://api.sl.se/api2/LineData.json?model={model}&key={apikey}";
     private final String APIKey = "03754d95f9f44cb89bdc19f05504f304";
 
