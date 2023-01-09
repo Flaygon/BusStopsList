@@ -1,0 +1,36 @@
+:root
+{
+    --backgroundColorPrimary: rgb(100, 100, 100);
+    --contentColorPrimary: ivory;
+    --contentColorSecondary: grey;
+    --contentColorTertiary: gold;
+    --textColor: hsl(0, 100%, 0%);
+}
+
+header
+{
+    background-color: magenta;
+}
+
+body
+{
+    background-color: var(--backgroundColorPrimary);
+    height: 100%;
+    padding-top: 5%;
+}
+
+.route
+{
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: var(--contentColorPrimary);
+    border-style: solid;
+    border-color: var(--contentColorSecondary);
+    border-radius: 3px;
+    list-style-type: none;
+}
+
+.route-label
+{
+  padding-left: 10px;
+}
