@@ -1,7 +1,7 @@
 # BusStopsList
 Lists the top 10 bus stops from bus lines in Stockholm using TrafikLab API
 
-# Running the Server Locally
+# Running the Server Locally (WINDOWS)
 Open project in IntelliJ IDEA or similar development environment
 Set project java SDK to Java 17
 Go to class PublicTransportSchedulesApplication and run the project
